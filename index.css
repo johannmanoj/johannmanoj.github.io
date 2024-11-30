@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: beige;
+}
+
+
+
+.intro {
+    background-color: bisque;
+    height: 500px;
+}
+
+.experience {
+    background-color:lightblue;
+    height: 500px;
+}
+
+.skills {
+    background-color: bisque;
+    height: 500px;
+}
+
+.contact {
+    background-color:lightblue;
+    height: 500px;
+}
