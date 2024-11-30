@@ -8,11 +8,14 @@ body {
 .intro {
     background-color: bisque;
     height: 500px;
+    display: flex;
 }
 
 .experience {
     background-color:lightblue;
     height: 500px;
+    display: flex;
+    align-items: center;
 }
 
 .skills {
@@ -23,4 +26,75 @@ body {
 .contact {
     background-color:lightblue;
     height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.cover-image {
+    height: 500px;
+}
+
+.cover-text {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+    font-weight: 600;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+}
+
+.profile-text {
+    margin-left: 200px;
+    /* background-color: rgb(45, 229, 229); */
+    width: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.profile-text-header{
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+    font-weight: 600;
+}
+
+.profile-text-body {
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    width: 600px;
+    /* font-weight: 200; */
+}
+
+.contact-image {
+    margin:100px;
+    width: 350px;
+}
+
+.footer-text-header {
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.footer-text-body {
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    width: 600px;
 }

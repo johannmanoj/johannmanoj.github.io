@@ -8,16 +8,49 @@
 </head>
 <body>
     <div class="intro">
-        Johann Manoj
+        <img src="/images/laptop.jpg" class="cover-image">
+        <div class="cover-text">
+           <div>Johann Manoj</div> 
+           <div>Software Developer</div> 
+        </div> 
     </div>
     <div class="experience">
-        Mechanical Engineer
+        <div class="profile-text">
+            <div class="profile-text-header">About Me</div> 
+            <div class="profile-text-body">
+                I am a professional web developer with two years of experience in
+                backend web application development and database management.
+                Team player with an eye for detail.
+            </div>
+        </div> 
+        <img src="images/profile.jpg" class="profile-pic">
     </div>
     <div class="skills">
         Node JS
     </div>
     <div class="contact">
-        johannmanoj@gmail.com
+        <img src="images/laptop-table.jpg" class="contact-image">
+        <div class="footer-text">
+            <div class="footer-text-header">Reach out</div>
+            <div class="footer-text-body">
+                <div >Johann Manoj</div>
+                <div>johannmanoj@gmail.com</div>
+            </div>
+            
+            <button id="scrollButton">Back to Top</button>
+        </div>
     </div>
+    
+
+    <script>
+        // Add a click event listener to the button
+        document.getElementById("scrollButton").addEventListener("click", function() {
+        // Smooth scroll to the top of the page
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+        });
+    </script>
 </body>
 </html>
