@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: beige;
+    background-color: rgb(255, 255, 255)
 }
 
 
@@ -11,20 +11,20 @@ body {
     display: flex;
 }
 
-.experience {
-    background-color:#39FFFF;
+.profile {
+    background-color:#FFD68A;
     height: 500px;
     display: flex;
     align-items: center;
 }
 
-.skills {
-    background-color: bisque;
+.experience {
+    /* background-color: bisque; */
     height: 500px;
 }
 
 .contact {
-    background-color:#94FFFF;
+    background-color:#FFD68A;
     height: 500px;
     display: flex;
     align-items: center;
@@ -50,28 +50,63 @@ body {
 .intro-text-header {
     font-size: 44px;
     font-family: Arial;
-    color: #94FFFF;
+    color: #FFD68A;
     font-weight: 600;
 }
 
 .intro-text-body {
-    font-size: 26px;
+    margin-top: 5px;
+    font-size: 24px;
     font-family: Arial;
-    /* color: white; */
+    /* color: #FFD68A; */
 }
 
-.into-button {
+/* .into-button {
+    margin-top: 20px;
     border: none;
-    background-color: #94FFFF;
+    background-color: #FFD68A;
     border-radius: 10px;
     width:220px;
     height:30px;
     color: white;
 }
 
+.into-button:hover {
+    background-color: aqua;
+    box-shadow: 10px;
+} */
+
+.into-button {
+    width: 150px;
+
+    margin-top: 25px;
+    background-color: #FFD68A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+    /* box-shadow: 0 4px #2e7d32; */
+    transition: transform 0.1s, box-shadow 0.1s;
+  }
+
+  /* Click effect */
+  .into-button:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px #2e7d32;
+  }
+
+  /* Optional hover effect */
+  .into-button:hover {
+    background-color: #45a049;
+  }
+
 .profile-pic {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 500px;
 }
 
@@ -102,20 +137,28 @@ body {
     /* font-weight: 200; */
 }
 
-.skills-text{
-    font-size: 30px;
+.experience-text{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.experience-header {
+    font-size: 40px;
     font-family: Arial;
-    color: white;
+    color: #FFD68A;
     font-weight: 600;
 }
 
 .contact-image {
     margin:100px;
     width: 350px;
+    border-radius: 5px;
 }
 
 .footer-text-header {
-    font-size: 30px;
+    font-size: 44px;
     font-family: Arial;
     color: white;
     font-weight: 600;
@@ -123,16 +166,43 @@ body {
 }
 
 .footer-text-body {
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial;
     color: white;
     width: 600px;
 }
 
-#scrollButton {
+
+/* #scrollButton {
     margin-top: 10px;
     color: white;
     border: none;
     background-color: rgb(108, 170, 192);
     border-radius: 5px;
-}
+} */
+
+#scrollButton {
+    margin-top: 20px;
+    width: 150px;
+    background-color: white;
+    color: #FFD68A;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    /* box-shadow: 0 4px #2e7d32; */
+    transition: transform 0.1s, box-shadow 0.1s;
+  }
+
+  /* Click effect */
+  #scrollButton:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px #2e7d32;
+  }
+
+  /* Optional hover effect */
+  #scrollButton:hover {
+    background-color: #45a049;
+  }
